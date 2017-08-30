@@ -1,0 +1,110 @@
+.header{
+  width: 100%;
+  height: 50px;
+  /*background-color: yellow;*/
+  text-align: right;
+
+}
+.header a{
+  margin-right: 15px;
+  font-family: arial;
+}
+.header button{
+  color:white;
+  background-color: blue;
+  height: 30px;
+  border-width: 0px;
+  margin-right: 15px;
+
+}
+.header button:hover{
+  border-width: thin;
+  border-color: grey;
+}
+
+.center{
+  width: 400px;
+  height: 400px;
+/*  background-color: green;*/
+  margin: 150px auto 0 auto;
+  text-align: center;
+}
+.gumbi{
+  width: 100%;
+  height: 50px;
+  /*background-color: red;*/
+  display: inline-block;
+  margin:0 auto 0 auto;
+}
+
+.text-input{
+  width: 500px;
+  height: 30px;
+  position:relative;
+  left: -50px;
+}
+.gumbi button{
+  margin: 10px;
+  background-color: white;
+  font-size: 15px;
+  font-family: arial;
+  font-weight: bold;
+  color: grey;
+  border-width: 0;
+}
+button:hover{
+  border-width: thin;
+}
+
+.bottom{
+  width: 100%;
+  height: 30px;
+  /*background-color: blue;*/
+  position:fixed;
+  bottom: 0;
+  display: inline-block;
+}
+
+
+.leva{
+  height: 100px;
+    width:320px;
+    /*background-color: red;*/
+    /* vzporedni kvadrati */
+    margin: 0;
+    display: inline-block;
+
+  font-size: 15x;
+  font-family: sans-serif;
+
+}
+.leva a{
+  margin-left: 30px;
+  color: grey;
+  display: inline-block;
+
+}
+.desna{
+    height: 100px;
+    width: 60%;
+  /*  background-color: orange;*/
+    /* vzporedni kvadrati */
+    margin-left: auto;
+
+    display: inline-block;
+  text-align: right;
+  font-size: 15px;
+  font-family: sans-serif;
+
+}
+.desna a{
+  color:gray;
+  margin-right: 30px;
+  display: inline-block;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
